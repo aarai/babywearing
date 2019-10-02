@@ -1,0 +1,16 @@
+form.custom-new-user-form {
+    background:#73C3FE;
+    padding:10px 20px 20px;
+    border-radius:5px;
+
+    .btn {
+        -webkit-transition: backgroudnd-color 1s; /* Safari prior 6.1 */
+        transition: background-color 1s;
+        background: #A36EB9;
+        width:100%;
+        &:hover {
+            background: #84A5C6;
+        }
+    }
+
+}
